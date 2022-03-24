@@ -36,3 +36,16 @@ Any of the problems follows this flow:
 Once we have the fermionic operators we just need to transform those into Qbits with a mapper, use qbit operators and go trough any of the quantum algorithms stated above
 
 All the documentation refered to all the details of the methods and algorithms can be found in IBM Qiskit Nature [Documentation](https://qiskit.org/documentation/nature/index.html)
+
+## Installing Qiskit
+
+As simple as using pip to install it
+```
+pip install qiskit
+pip install qiskit[nature] # For bash shell
+pip install 'qiskit[nature]' # For zsh shell
+```
+Also is needed a SCF driver, for convenience can be used PySCF
+```
+pip install pyscf
+```
