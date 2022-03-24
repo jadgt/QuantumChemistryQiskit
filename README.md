@@ -33,3 +33,6 @@ Any of the problems follows this flow:
 3. Do a base transformation
 4. Give back the second quantization operators in terms of femionic operators 
 
+Once we have the fermionic operators we just need to transform those into Qbits with a mapper, use qbit operators and go trough any of the quantum algorithms stated above
+
+All the documentation refered to all the details of the methods and algorithms can be found in IBM Qiskit Nature [Documentation](https://qiskit.org/documentation/nature/index.html)
